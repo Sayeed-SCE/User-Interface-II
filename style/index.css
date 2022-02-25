@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+
 header {
     background-color: lightgray;
     padding: 20px;
@@ -55,5 +64,123 @@ button:hover {
 button a {
     text-decoration: none;
     color: inherit;
+
+}
+@media(max-width: 799px) {
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+
+    .links {
+
+        width: 100%;
+        justify-self:   
+    }
+
+    h1 {
+        justify-content: center;
+        margin-left: 25%;
+    }
+    .topsection img {
+        margin-top: 0%;
+        width: 40%;
+        flex-direction: column-reverse;
+        
+
+        
+    }
+    .description {
+        flex-direction: column;
+    }
+
+    .row .Portfolio-element {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    
+  
+}
+
+@media(max-width: 300px){
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    h1 {
+        desplay: flex;
+        font-style: normal;
+        width: 100%;
+        margin-right: 25%;
+        font-size: large;
+        justify-content: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    button{
+        width: 40%;
+        margin: 1% 0%;
+
+    }
+    .topsection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-height: 75vh;
+        min-width: 0;
+    }
+    .topsection .description {
+        width: 100%;
+    }
+    .topsection .description button{
+        display: flex;
+        align-items: center;
+        margin-left: 25% ;
+        padding: 5px;
+    }
+    .topsection .description p {
+        display: flex;
+        font-size: small;
+        justify-content: center;
+    }
+
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .row div{
+        width: 40%;
+        margin: 4% 0%;
+    }
+
+    footer {
+        background-color: lightgoldenrodyellow;;
+    }
+    footer h2{
+        font-size: medium;
+    }
+    footer button{
+        display: flex;
+        padding: 1% 1%;
+        margin-left: 30%;
+
+
+    }
 
 }
