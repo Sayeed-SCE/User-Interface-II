@@ -1,9 +1,8 @@
 * {
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     padding: 0%;
     margin: 0%;
     max-width: 100%;
-    border: 1px solid grey;
 }
 
 
@@ -68,15 +67,18 @@ button a {
 }
 @media(max-width: 799px) {
 
-    nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        
+    .row div{
+        width: 20%;
     }
 
-    .links {
 
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .links {
         width: 100%;
         justify-self:   
     }
@@ -86,11 +88,8 @@ button a {
         margin-left: 25%;
     }
     .topsection img {
-        margin-top: 0%;
-        width: 40%;
+        width: 60%;
         flex-direction: column-reverse;
-        
-
         
     }
     .description {
@@ -154,7 +153,6 @@ button a {
     .topsection .description p {
         display: flex;
         font-size: small;
-        justify-content: center;
     }
 
 
